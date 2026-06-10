@@ -21,7 +21,7 @@ from nltk.stem.porter import PorterStemmer
 # Page Config
 
 st.set_page_config(
-    page_title="Spam Email Detector",
+    page_title="Spam SMS Detector",
     page_icon="📧",
     layout="centered"
 )
@@ -71,7 +71,7 @@ def transform_message(message):
 
 # Header
 
-st.title("📧 Spam Email Detector")
+st.title("📧 Spam SMS Detector")
 
 st.markdown(
     """
